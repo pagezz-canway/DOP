@@ -9,7 +9,7 @@ DOP是一个基于蓝鲸智云的大数据管理平台，旨在简化大数据�
 ![image](./docs/img/product_architecture.png)
 
 ### 产品首页
-![image](./docs/img/main_page.png)
+![image](https://user-images.githubusercontent.com/25680803/118119027-4edd2100-b420-11eb-9522-5d5ba676d068.png)
 
 ## 2. 本地环境部署
 
