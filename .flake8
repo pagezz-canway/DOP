@@ -1,0 +1,37 @@
+[flake8]
+exclude =
+    *migrations*,
+    # python related
+    *.pyc,
+    .git,
+    __pycache__,
+    */node_modules/*
+    ./static/*
+    ./blueking/*
+    ./blueapps/*
+    ./sites/*
+    frontend/*,
+    home/*,
+    pipeline/*,
+    templates_module,
+    docs,
+    flower_proxy,
+    ./config/default.py,
+    custom/*
+
+max-line-length=120
+max-complexity=12
+format=pylint
+show_source=False
+statistics=True
+count=True
+
+ignore =
+    ;C901 complex check ignore
+    C901,
+    ;W503 line break before binary operator
+    W503,
+    ;E203 whitespace before ':'
+    E203,
+    ;E231 whitespace after ','
+    E231

@@ -1,0 +1,22 @@
+app_code: bk_dop
+app_name: dop平台
+app_name_en: TenDop
+version: 1.0.0
+author: 蓝鲸智云
+category: 办公应用
+container:
+  memory: 4096
+date: '2021-04-08 22:37:04'
+desktop:
+  height: 720
+  is_max: true
+  width: 1200
+env:
+- key: BKAPP_ENABLE_SHARED_FS
+  value: true
+introduction: 项目介绍
+introduction_en: project introduction.
+is_use_celery: true
+is_use_celery_with_gevent: false
+language: python
+language_support: 英语
